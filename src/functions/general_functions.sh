@@ -9,7 +9,7 @@ echo_message() {
     echo -n -e "$3"
   elif [[ ${format} == "json" ]]; then
     echo -n -e "$4"
-  else #default to cli
+  else #default to cli/vcli
     echo -n -e "${1}"
   fi
 }
